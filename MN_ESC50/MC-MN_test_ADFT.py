@@ -1,7 +1,4 @@
-import os
 import pandas as pd
-import torchaudio
-import torchaudio.transforms as T
 import learn2learn as l2l
 from model import MatchingNetwork
 from tqdm import tqdm
@@ -10,7 +7,7 @@ import torch
 import numpy as np
 from wav_data_loader import ESC50Dataset
 from utils import wav_episodic_sampling, one_hot, mean_confidence_interval
-from aug import RandAugment
+from MN_ESC50.aug import RandAugment
 
 # Load the metadata file
 meta_data = pd.read_csv('../ESC-50/meta/esc50.csv')
