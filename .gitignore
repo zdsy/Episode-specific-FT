@@ -1,0 +1,11 @@
+# Ignore model checkpoints
+*.ckpt
+*.pth
+*.pt
+*.h5
+*.onnx
+*.tflite
+checkpoints/
+models/
+logs/
+Medley-solo/
