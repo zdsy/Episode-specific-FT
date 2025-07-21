@@ -35,3 +35,26 @@ pip install -r requirements.txt
 To run the examples, simply change to the target example directory and run:
 ```bash
 python train.py
+
+---
+
+## Cite
+```bash
+@misc{zhuang2025episodespecificfinetuningmetricbasedfewshot,
+      title={Episode-specific Fine-tuning for Metric-based Few-shot Learners with Optimization-based Training}, 
+      author={Xuanyu Zhuang and Geoffroy Peeters and Gaël Richard},
+      year={2025},
+      eprint={2506.17499},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2506.17499}, 
+}
+```
+
+---
+
+## Acknowledgments
+
+The implementation uses the [**learn2learn**](https://github.com/learnables/learn2learn) library for few-shot meta-learning.
+
+
