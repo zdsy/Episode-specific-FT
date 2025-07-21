@@ -7,7 +7,7 @@ This repository contains code examples of paper *“Episode‑specific Fine‑tu
 
 ---
 
-## ⚙️ Overview
+## Overview
 
 - Implements three *episode-specific fine-tuning* methods:
   - **RDFT** (Rotational Division Fine-Tuning)
@@ -21,13 +21,11 @@ This repository contains code examples of paper *“Episode‑specific Fine‑tu
 
 ---
 
-## 🧪 Results
+## Repo Structure
 
-Our approach consistently improved metric-based models (PN, MN, CAN), with ADFT showing particularly strong gains—e.g., a ~5–8 % boost on CAN :contentReference[oaicite:1]{index=1}.
+The repo contains implementations of 3 different model-dataset combinations, with each of the combination includes the training and testing of all three proposed episode-specific fine-tuning methods (RDFT, EDFT & ADFT). Among which, ADFT methods (integrating audio augmentations) uses a separate training pipeline to handle wavform loading and switching between augmentation methods.
 
----
-
-## 🚀 Getting started
+## Getting started
 
 ### 1. Clone
 
