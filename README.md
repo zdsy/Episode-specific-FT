@@ -1,9 +1,9 @@
-# Episode-specific Fine-tuning for Few-shot Audio Classification
+# Episode-specific Fine-tuning for Metric-based Few-shot Learners with Optimization-based Training
 
-This repository supports the paper *“Episode‑specific Fine‑tuning for Metric‑based Few‑shot Learners with Optimization‑based Training”* submitted to **IEEE TASLP** by Xuanyu Zhuang, Geoffroy Peeters & Gaël Richard.
+This repository contains code examples of paper *“Episode‑specific Fine‑tuning for Metric‑based Few‑shot Learners with Optimization‑based Training”* submitted to **IEEE TASLP** by Xuanyu Zhuang, Geoffroy Peeters & Gaël Richard.
 
 🔗 **Paper (arXiv)**:  
-A link to the full paper can be included once published.
+[A link to the full paper can be included once published.](https://www.arxiv.org/abs/2506.17499)
 
 ---
 
