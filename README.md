@@ -25,10 +25,12 @@ This repository contains code examples of paper *“Episode‑specific Fine‑tu
 
 The repo contains implementations of 3 different model-dataset combinations, with each of the combination includes the training and testing of all three proposed episode-specific fine-tuning methods (RDFT, EDFT & ADFT). Among which, ADFT methods (integrating audio augmentations) uses a separate training pipeline to handle wavform loading and switching between augmentation methods.
 
-## Getting started
-
-### 1. Clone
-
+## Setup
 ```bash
 git clone https://github.com/zdsy/Episode-specific-FT.git
 cd Episode-specific-FT
+pip install -r requirements.txt
+
+To run the examples, simply change to the target example directory and run:
+```bash
+python train.py
