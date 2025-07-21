@@ -1,0 +1,9 @@
+torch>=1.9
+torchaudio
+numpy
+scikit-learn
+matplotlib
+tqdm
+pyyaml
+pandas
+learn2learn
