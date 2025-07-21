@@ -30,6 +30,7 @@ The repo contains implementations of 3 different model-dataset combinations, wit
 git clone https://github.com/zdsy/Episode-specific-FT.git
 cd Episode-specific-FT
 pip install -r requirements.txt
+```
 
 To run the examples, simply change to the target example directory and run:
 ```bash
